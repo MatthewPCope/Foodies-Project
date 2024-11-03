@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 const mealsPage = () => {
-  return (
-    <div>page</div>
-  )
+    return (
+        <div>Meals Page</div>
+    )
 }
 
 export default mealsPage

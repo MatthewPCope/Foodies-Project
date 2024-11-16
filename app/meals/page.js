@@ -30,6 +30,9 @@ export default function MealsPage(){
             <Suspense fallback={<p className={classes.loading}>Fetching Meals...</p>}>
                 <Meals />
             </Suspense>
+            <Suspense fallback={<p className={classes.loading}>Fetching Meals...</p>}>
+                <Meals />
+            </Suspense>
         </main>
         </>
     )
